@@ -3,7 +3,7 @@ EC2 : (Elastic Compute Cloud)
 EC2 is a core AWS compute service that offers on-demand, resizable virtual instances with configurable CPU,
 memory, storage, and networking for running workloads.
 ```
-** To create an EC2 instance, the following components are needed: **
+***To create an EC2 instance, the following components are needed:***
 
 ```text
 1. AWS Account – To access the AWS Management Console or CLI.
