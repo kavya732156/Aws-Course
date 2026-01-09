@@ -8,7 +8,7 @@ memory, storage, and networking for running workloads.
 To create an EC2 instance, the following components are needed:
 
 1. **AWS Account** – To access the AWS Management Console or CLI.
-2. AMI (Amazon Machine Image) – Defines the operating system and preinstalled software.
+2. **AMI (Amazon Machine Image)** – Defines the operating system and preinstalled software.
 3. Instance Type – Specifies CPU, memory, and networking capacity.
 4. Key Pair – Used for secure SSH/RDP access to the instance.
 5. Security Group – Acts as a virtual firewall to control inbound and outbound traffic.
