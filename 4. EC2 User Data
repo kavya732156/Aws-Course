@@ -1,0 +1,19 @@
+***1. What is EC2 User Data?***
+
+- EC2 User Data is a mechanism to pass scripts or commands to an EC2 instance when it launches. It’s commonly used to automate instance configuration, 
+  such as installing software, updating packages, or running initialization tasks.
+- User Data is executed only at the first launch by default.
+- userdata is also called as bootstrap scripts
+- It can be shell scripts (#!/bin/bash), cloud-init directives (#cloud-config), or PowerShell scripts (for Windows instances).
+- You can modify user data for instances, the instance must be in the stopped state.
+
+***Userdata Script***
+``` bash
+#!/bin/bash
+yum install httpd -y
+echo "<h2>Java Home Cloud - Userdata </h2>" > /var/www/html/index.html
+systemctl enable httpd
+systemctl start httpd
+```
+
+
